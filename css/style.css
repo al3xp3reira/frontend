@@ -1,0 +1,131 @@
+/* Arquivo CSS geral com estilos dos elementos de todas páginas */
+* {
+	box-sizing: border-box;
+
+	}
+	
+	html   {
+		      margin: 0;
+		      padding: 0;
+		      font-family: serif;
+		      color: white;
+		      font-size: 62.5%;
+	        }
+	header {
+			  background-color: #363636;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+			
+
+
+	body   {
+			  background-color: black;
+			  font-family: Arial, Helvetica, sans-serif;
+		    }
+    a      {
+    	      color: white;
+    	      text-decoration: none;
+    	      font-size: 2rem;
+             }
+    h1     {
+              font-size: 2rem;
+            } 
+    p     {
+              font-size: 1.8rem;
+            }                
+
+   form div{
+              background: #363636;
+              border: 1px solid #999;
+              margin: 1rem 1rem 2rem 1rem;
+              padding: 1rem 1rem 1rem 2rem;
+            }
+    label  {
+              margin-bottom: 1rem;
+              font-size: 1.4rem;
+              font-family: sans-serif;
+              font-weight: bold;
+              color: white;
+            }
+    input  {
+              padding: 1rem;
+            }                        
+    [type="text"], [type="email"], textarea
+    	   {
+    	   	 
+    	   	  width: 100%;
+            }	      
+    	      
+	
+	nav    {
+			  float: left;
+			  width: 30%;			
+			  background: black;
+			  padding: 42.5px;
+			}
+	nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+	article{
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: black;
+			}
+
+		section::after {background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			  <div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="#home" class="active">Home</a>
+  </div>
+  
+  <!-- Left-aligned links default -->
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>}
+			  
+  
+</div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Top Navigation with Centered and Right-Aligned Links</h2>
+  <p>Resize the browser window to see the responsive effect.</p>
+	<div>
+
+
+	footer {
+			  background-color: #363636;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+
+			}
+	@media (max-width: 600px) 
+	       {
+			nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+   form div{
+             position: static;
+             position: relative;
+             margin-top: -10px;
+	        }
+
+			
